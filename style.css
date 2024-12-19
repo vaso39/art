@@ -1,0 +1,486 @@
+@font-face {
+  font-family: Big Shoulders Display;
+  src: url(fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Outfit;
+  src: url(fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 200px;
+  margin: 0;
+}
+.div1 {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: white;
+}
+.absdiv {
+  width: 70%;
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  top: 20%;
+  left: 15%;
+  justify-content: space-between;
+}
+.divA {
+  width: 45%;
+  mix-blend-mode: difference;
+  font-family: Big Shoulders Display;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 88px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-wrap: break-word;
+}
+.divB {
+  width: 30%;
+}
+.black {
+  height: 100%;
+  width: 30%;
+  background-color: black;
+}
+.img1 {
+  height: 100%;
+  width: 45%;
+  background-image: url(imgs/Rectangle.png);
+  background-position: center;
+  background-size: cover;
+}
+.white {
+  height: 100%;
+  width: 20%;
+  background-color: white;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 260px;
+  height: 72px;
+  top: 414px;
+  left: 925px;
+  gap: 0px;
+  opacity: 0px;
+}
+.button1 > a {
+  text-decoration: none;
+  color: white;
+}
+.button1 {
+  width: 204px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+  background: transparent;
+  font-family: Big Shoulders Display;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 23.94px;
+  letter-spacing: 3.6363637447357178px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: grid;
+  place-content: center;
+}
+.arrow {
+  background-image: url(imgs/Group.png);
+  width: 56px;
+  height: 72px;
+}
+.arrow1 {
+  background-image: url(imgs/Group\(2\).png);
+  width: 56px;
+  height: 72px;
+}
+.button:hover {
+  background-color: rgba(213, 150, 108, 1);
+}
+.button:hover > .arrow {
+  background-image: url(imgs/Group\(1\).png);
+}
+.button:hover > .arrow1 {
+  background-image: url(imgs/Group\(3\).png);
+}
+.Btext {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(68, 68, 68, 1);
+}
+/* Second block */
+.div2 {
+  width: 100%;
+  height: 1150px;
+}
+.div2_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.text2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bigtext {
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-transform: uppercase;
+}
+.smalltext {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.text3 {
+  width: 25%;
+}
+.grid {
+  width: 80%;
+  display: grid;
+  grid-template-areas:
+    "area1 area1 area2"
+    "area1 area1 area3";
+  gap: 30px;
+}
+.Garea1 {
+  grid-area: area1;
+}
+.Garea1 > img {
+  width: 100%;
+  height: 100%;
+}
+.Garea2 {
+  grid-area: area2;
+}
+.Garea2 > img {
+  width: 100%;
+  height: 100%;
+}
+.Garea3 {
+  grid-area: area3;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+.Garea3_1 {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Garea3_1 > .smalltext {
+  width: 80%;
+}
+/* Footer */
+footer {
+  width: 100%;
+  height: 244px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.smalltext2 {
+  color: white;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 40%;
+}
+.imggroup {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.imgs:hover {
+  filter: brightness(0) saturate(100%) invert(67%) sepia(60%) saturate(450%)
+    hue-rotate(355deg) brightness(95%) contrast(90%);
+}
+/*second page*/
+.body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.map {
+  width: 100%;
+  position: relative;
+}
+iframe {
+  filter: saturate(0);
+}
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.info1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.thetext {
+  width: 40%;
+}
+.thetext1 {
+  width: 20%;
+  font-family: Big Shoulders Display;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.thetext2 {
+  font-family: Big Shoulders Display;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(213, 150, 108, 1);
+}
+.thetext3 {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+}
+.footer {
+  width: 100%;
+  height: 244px;
+  background-color: rgba(213, 150, 108, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer > .smalltext2 {
+  color: black;
+}
+.imgs2:hover {
+  filter: invert(100%);
+}
+.color {
+  color: rgba(21, 21, 21, 1);
+}
+.absbutton {
+  position: absolute;
+  left: 5%;
+  z-index: 1;
+}
+@media (max-width: 1200px) {
+  .divA {
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .img2 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .divB {
+    width: 40%;
+  }
+  .text3 {
+    width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .body {
+    gap: 100px;
+  }
+  .absdiv {
+    flex-direction: column;
+    align-items: flex-start;
+    top: 10%;
+    left: 46%;
+    width: 40%;
+  }
+  .img1 {
+    width: 50%;
+  }
+  .divA {
+    width: 50%;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .divB {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .black {
+    display: none;
+  }
+  .grid {
+    gap: 10px;
+  }
+  footer {
+    height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .div1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .absdiv {
+    position: unset;
+    width: 90%;
+  }
+  .img1 {
+    height: 40%;
+    width: 100%;
+  }
+
+  .div2 {
+    height: auto;
+  }
+  .grid {
+    width: 90%;
+    grid-template-areas:
+      "area1"
+      "area2"
+      "area3";
+  }
+  .Garea3_1 {
+    width: 70%;
+  }
+  .text2 {
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 90%;
+    align-items: flex-start;
+  }
+  .text3 {
+    width: 70%;
+  }
+  footer,
+  .footer {
+    display: flex;
+    height: auto;
+    align-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .foot {
+    height: 50%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .smalltext2 {
+    width: 80%;
+  }
+  .imggroup {
+    width: 30%;
+  }
+  .info1 {
+    flex-direction: column;
+  }
+  .thetext {
+    width: 100%;
+  }
+  .thetext1 {
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 100%;
+  }
+  .thetext2 {
+    font-family: Big Shoulders Display;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .thetext3 {
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .color {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .absbutton {
+    left: 0;
+  }
+}
